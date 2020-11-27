@@ -1,5 +1,4 @@
-- Author     : Vedant Chauhan
-- Student id : 892758
+
 - README.txt: This file, which describes problem context, program implementation details, procedure to execute program, 
 files used in program, and output details.
 
