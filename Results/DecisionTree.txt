@@ -1,0 +1,241 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     twitter-adr
+Instances:    3166
+Attributes:   97
+              id
+              allergic
+              am
+              appetite
+              bad
+              bananas
+              bed
+              been
+              body
+              but
+              can
+              caused
+              causing
+              chemical
+              commercial
+              contain
+              crippled
+              crying
+              cymbalta
+              definitely
+              depression
+              diary
+              dont
+              drowsy
+              due
+              effexor
+              experiencing
+              fda
+              feel
+              fluid
+              found
+              gain
+              gained
+              glassncision
+              had
+              hating
+              headaches
+              help
+              hurts
+              i
+              is
+              it
+              lamotrigine
+              lbs
+              legs
+              lozenge
+              made
+              makes
+              making
+              me
+              messed
+              munchies
+              muscle
+              my
+              natural
+              neck
+              next
+              nicotine
+              nightmare
+              off
+              olanzapine
+              on
+              pain
+              pains
+              person
+              pic
+              prozac
+              quetiapine
+              restless
+              retention
+              rivaroxaban
+              rt
+              same
+              sense
+              seroquel
+              sick
+              since
+              skin
+              sleep
+              stone
+              taking
+              tendon
+              this
+              though
+              tired
+              uberfacts
+              up
+              was
+              weight
+              withdrawal
+              withdrawals
+              wondering
+              zombie
+              feel_like
+              side_effects
+              not_working
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+makes <= 0
+|   feel <= 0
+|   |   rivaroxaban <= 0
+|   |   |   since <= 0
+|   |   |   |   weight <= 0
+|   |   |   |   |   bad <= 0
+|   |   |   |   |   |   made <= 0
+|   |   |   |   |   |   |   effexor <= 0
+|   |   |   |   |   |   |   |   quetiapine <= 0: N (2714.0/216.0)
+|   |   |   |   |   |   |   |   quetiapine > 0
+|   |   |   |   |   |   |   |   |   had <= 0
+|   |   |   |   |   |   |   |   |   |   i <= 1: N (95.0/15.0)
+|   |   |   |   |   |   |   |   |   |   i > 1
+|   |   |   |   |   |   |   |   |   |   |   i <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   am <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   this <= 0: N (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   this > 0: Y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   am > 0: Y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   i > 2: Y (3.0)
+|   |   |   |   |   |   |   |   |   had > 0
+|   |   |   |   |   |   |   |   |   |   i <= 0: Y (3.0)
+|   |   |   |   |   |   |   |   |   |   i > 0: N (3.0/1.0)
+|   |   |   |   |   |   |   effexor > 0
+|   |   |   |   |   |   |   |   withdrawal <= 0
+|   |   |   |   |   |   |   |   |   my <= 0
+|   |   |   |   |   |   |   |   |   |   off <= 0
+|   |   |   |   |   |   |   |   |   |   |   side_effects <= 0: N (43.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   side_effects > 0
+|   |   |   |   |   |   |   |   |   |   |   |   id <= 348245628880576000: N (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   id > 348245628880576000: Y (2.0)
+|   |   |   |   |   |   |   |   |   |   off > 0
+|   |   |   |   |   |   |   |   |   |   |   is <= 0: N (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   is > 0: Y (2.0)
+|   |   |   |   |   |   |   |   |   my > 0
+|   |   |   |   |   |   |   |   |   |   but <= 0
+|   |   |   |   |   |   |   |   |   |   |   i <= 0: N (7.0)
+|   |   |   |   |   |   |   |   |   |   |   i > 0: Y (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   but > 0: Y (2.0)
+|   |   |   |   |   |   |   |   withdrawal > 0: Y (5.0/1.0)
+|   |   |   |   |   |   made > 0
+|   |   |   |   |   |   |   had <= 0
+|   |   |   |   |   |   |   |   i <= 0
+|   |   |   |   |   |   |   |   |   on <= 0
+|   |   |   |   |   |   |   |   |   |   id <= 347562960006294980: N (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   id > 347562960006294980: Y (4.0)
+|   |   |   |   |   |   |   |   |   on > 0: Y (2.0)
+|   |   |   |   |   |   |   |   i > 0: N (13.0)
+|   |   |   |   |   |   |   had > 0: Y (6.0/1.0)
+|   |   |   |   |   bad > 0
+|   |   |   |   |   |   seroquel <= 0
+|   |   |   |   |   |   |   though <= 0
+|   |   |   |   |   |   |   |   up <= 0: N (34.0/7.0)
+|   |   |   |   |   |   |   |   up > 0: Y (2.0)
+|   |   |   |   |   |   |   though > 0: Y (2.0)
+|   |   |   |   |   |   seroquel > 0: Y (4.0/1.0)
+|   |   |   |   weight > 0
+|   |   |   |   |   olanzapine <= 0
+|   |   |   |   |   |   seroquel <= 0
+|   |   |   |   |   |   |   my <= 0: N (14.0)
+|   |   |   |   |   |   |   my > 0: Y (2.0)
+|   |   |   |   |   |   seroquel > 0: Y (4.0)
+|   |   |   |   |   olanzapine > 0: Y (5.0)
+|   |   |   since > 0
+|   |   |   |   body <= 0
+|   |   |   |   |   making <= 0
+|   |   |   |   |   |   but <= 0
+|   |   |   |   |   |   |   been <= 1
+|   |   |   |   |   |   |   |   been <= 0: N (13.0/4.0)
+|   |   |   |   |   |   |   |   been > 0: Y (6.0/1.0)
+|   |   |   |   |   |   |   been > 1: N (2.0)
+|   |   |   |   |   |   but > 0: N (5.0)
+|   |   |   |   |   making > 0: Y (2.0)
+|   |   |   |   body > 0: Y (2.0)
+|   |   rivaroxaban > 0
+|   |   |   pain <= 0
+|   |   |   |   pains <= 0: N (15.0)
+|   |   |   |   pains > 0: Y (5.0/1.0)
+|   |   |   pain > 0: Y (10.0/1.0)
+|   feel > 0
+|   |   allergic <= 0
+|   |   |   id <= 333693948231052990: Y (9.0)
+|   |   |   id > 333693948231052990
+|   |   |   |   up <= 0
+|   |   |   |   |   though <= 0
+|   |   |   |   |   |   side_effects <= 0: N (35.0/4.0)
+|   |   |   |   |   |   side_effects > 0: Y (2.0)
+|   |   |   |   |   though > 0: Y (2.0)
+|   |   |   |   up > 0: Y (6.0/1.0)
+|   |   allergic > 0: Y (3.0)
+makes > 0
+|   i <= 1
+|   |   nicotine <= 0
+|   |   |   prozac <= 0: Y (30.0/8.0)
+|   |   |   prozac > 0: N (2.0)
+|   |   nicotine > 0: N (2.0)
+|   i > 1: N (4.0)
+
+Number of Leaves  : 	49
+
+Size of the tree : 	97
+
+
+Time taken to build model: 0.8 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         958               89.0335 %
+Incorrectly Classified Instances       118               10.9665 %
+Kappa statistic                          0.1226
+Mean absolute error                      0.1734
+Root mean squared error                  0.3124
+Relative absolute error                 87.1345 %
+Root relative squared error            101.4362 %
+Total Number of Instances             1076     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.984    0.904    0.902      0.984    0.941      0.162    0.570     0.908     N
+                 0.096    0.016    0.423      0.096    0.157      0.162    0.570     0.165     Y
+Weighted Avg.    0.890    0.809    0.851      0.890    0.858      0.162    0.570     0.829     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 947  15 |   a = N
+ 103  11 |   b = Y

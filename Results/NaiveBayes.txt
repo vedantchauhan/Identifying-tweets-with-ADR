@@ -1,0 +1,720 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     twitter-adr
+Instances:    3166
+Attributes:   97
+              id
+              allergic
+              am
+              appetite
+              bad
+              bananas
+              bed
+              been
+              body
+              but
+              can
+              caused
+              causing
+              chemical
+              commercial
+              contain
+              crippled
+              crying
+              cymbalta
+              definitely
+              depression
+              diary
+              dont
+              drowsy
+              due
+              effexor
+              experiencing
+              fda
+              feel
+              fluid
+              found
+              gain
+              gained
+              glassncision
+              had
+              hating
+              headaches
+              help
+              hurts
+              i
+              is
+              it
+              lamotrigine
+              lbs
+              legs
+              lozenge
+              made
+              makes
+              making
+              me
+              messed
+              munchies
+              muscle
+              my
+              natural
+              neck
+              next
+              nicotine
+              nightmare
+              off
+              olanzapine
+              on
+              pain
+              pains
+              person
+              pic
+              prozac
+              quetiapine
+              restless
+              retention
+              rivaroxaban
+              rt
+              same
+              sense
+              seroquel
+              sick
+              since
+              skin
+              sleep
+              stone
+              taking
+              tendon
+              this
+              though
+              tired
+              uberfacts
+              up
+              was
+              weight
+              withdrawal
+              withdrawals
+              wondering
+              zombie
+              feel_like
+              side_effects
+              not_working
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                 Class
+Attribute                            N                       Y
+                                (0.88)                  (0.12)
+===============================================================
+id
+  mean               342906323376515840      343589862557210560
+  std. dev.            6538697850342720        7398070893739140
+  weight sum                       2793                     373
+  precision          10114275674983.877      10114275674983.877
+
+allergic
+  mean                           0.0014                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+am
+  mean                           0.0204                  0.0617
+  std. dev.                      0.1667                  0.2405
+  weight sum                       2793                     373
+  precision                           1                       1
+
+appetite
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bad
+  mean                           0.0107                  0.0456
+  std. dev.                      0.1667                  0.2086
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bananas
+  mean                            0.034                       0
+  std. dev.                      0.2139                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bed
+  mean                           0.0057                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+been
+  mean                           0.0279                   0.059
+  std. dev.                      0.1793                  0.2356
+  weight sum                       2793                     373
+  precision                           1                       1
+
+body
+  mean                           0.0029                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+but
+  mean                           0.0709                  0.1448
+  std. dev.                      0.2594                  0.3594
+  weight sum                       2793                     373
+  precision                           1                       1
+
+can
+  mean                            0.102                  0.0483
+  std. dev.                      0.3086                  0.2265
+  weight sum                       2793                     373
+  precision                           1                       1
+
+caused
+  mean                           0.0004                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+causing
+  mean                           0.0014                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+chemical
+  mean                           0.0569                       0
+  std. dev.                       0.331                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+commercial
+  mean                           0.0161                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+contain
+  mean                           0.0286                       0
+  std. dev.                      0.1668                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+crippled
+  mean                           0.0004                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+crying
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+cymbalta
+  mean                           0.0795                  0.0322
+  std. dev.                      0.2757                  0.1765
+  weight sum                       2793                     373
+  precision                           1                       1
+
+definitely
+  mean                           0.0021                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+depression
+  mean                            0.044                   0.008
+  std. dev.                      0.2086                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+diary
+  mean                           0.0029                  0.0268
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+dont
+  mean                            0.034                  0.0751
+  std. dev.                      0.1852                  0.2735
+  weight sum                       2793                     373
+  precision                           1                       1
+
+drowsy
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+due
+  mean                           0.0029                  0.0188
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+effexor
+  mean                           0.0215                  0.0643
+  std. dev.                      0.1667                  0.2454
+  weight sum                       2793                     373
+  precision                           1                       1
+
+experiencing
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+fda
+  mean                           0.0204                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+feel
+  mean                           0.0172                  0.1072
+  std. dev.                      0.2222                  0.4118
+  weight sum                       2793                     373
+  precision                      1.3333                  1.3333
+
+fluid
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+found
+  mean                           0.0333                   0.008
+  std. dev.                      0.1794                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+gain
+  mean                           0.0011                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+gained
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+glassncision
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+had
+  mean                           0.0347                  0.0858
+  std. dev.                      0.1945                  0.2895
+  weight sum                       2793                     373
+  precision                           1                       1
+
+hating
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+headaches
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+help
+  mean                            0.044                  0.0054
+  std. dev.                      0.2069                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+hurts
+  mean                           0.0226                  0.0027
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+i
+  mean                           0.4024                  0.6729
+  std. dev.                      0.6993                  0.8788
+  weight sum                       2793                     373
+  precision                           1                       1
+
+is
+  mean                           0.1708                  0.2735
+  std. dev.                      0.4135                  0.4915
+  weight sum                       2793                     373
+  precision                           1                       1
+
+it
+  mean                           0.1321                  0.2493
+  std. dev.                      0.3842                  0.4907
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lamotrigine
+  mean                           0.0143                  0.0429
+  std. dev.                      0.1667                  0.2026
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lbs
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+legs
+  mean                           0.0011                  0.0214
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lozenge
+  mean                           0.0784                   0.008
+  std. dev.                      0.2741                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+made
+  mean                           0.0104                  0.0429
+  std. dev.                      0.1667                  0.2026
+  weight sum                       2793                     373
+  precision                           1                       1
+
+makes
+  mean                           0.0057                  0.0617
+  std. dev.                      0.1667                  0.2514
+  weight sum                       2793                     373
+  precision                           1                       1
+
+making
+  mean                           0.0014                  0.0268
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+me
+  mean                            0.116                  0.3029
+  std. dev.                      0.3522                  0.5643
+  weight sum                       2793                     373
+  precision                           1                       1
+
+messed
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+munchies
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+muscle
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+my
+  mean                           0.2274                  0.3921
+  std. dev.                      0.5494                  0.7099
+  weight sum                       2793                     373
+  precision                        1.25                    1.25
+
+natural
+  mean                            0.029                  0.0027
+  std. dev.                      0.1678                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+neck
+  mean                           0.0011                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+next
+  mean                           0.0125                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+nicotine
+  mean                           0.0598                  0.0214
+  std. dev.                      0.2386                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+nightmare
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+off
+  mean                           0.0276                  0.0617
+  std. dev.                      0.1743                  0.2514
+  weight sum                       2793                     373
+  precision                           1                       1
+
+olanzapine
+  mean                           0.0233                  0.0777
+  std. dev.                      0.1667                  0.2871
+  weight sum                       2793                     373
+  precision                           1                       1
+
+on
+  mean                           0.1579                  0.2413
+  std. dev.                      0.4073                  0.4974
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pain
+  mean                           0.0115                  0.0536
+  std. dev.                      0.1667                  0.2253
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pains
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+person
+  mean                           0.0322                       0
+  std. dev.                      0.1806                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pic
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+prozac
+  mean                           0.0831                  0.0161
+  std. dev.                      0.2798                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+quetiapine
+  mean                           0.0351                  0.0912
+  std. dev.                      0.1879                   0.297
+  weight sum                       2793                     373
+  precision                           1                       1
+
+restless
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+retention
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+rivaroxaban
+  mean                           0.0064                  0.0349
+  std. dev.                      0.1667                  0.1834
+  weight sum                       2793                     373
+  precision                           1                       1
+
+rt
+  mean                           0.0193                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+same
+  mean                           0.0354                   0.008
+  std. dev.                      0.1868                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sense
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+seroquel
+  mean                           0.0555                   0.118
+  std. dev.                      0.2321                  0.3226
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sick
+  mean                           0.0021                  0.0349
+  std. dev.                      0.1667                  0.1975
+  weight sum                       2793                     373
+  precision                           1                       1
+
+since
+  mean                           0.0068                  0.0349
+  std. dev.                      0.1667                  0.1834
+  weight sum                       2793                     373
+  precision                           1                       1
+
+skin
+  mean                           0.0007                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sleep
+  mean                           0.0226                  0.0509
+  std. dev.                      0.1667                  0.2199
+  weight sum                       2793                     373
+  precision                           1                       1
+
+stone
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+taking
+  mean                           0.0251                  0.0643
+  std. dev.                      0.1667                  0.2454
+  weight sum                       2793                     373
+  precision                           1                       1
+
+tendon
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+this
+  mean                            0.073                  0.1394
+  std. dev.                      0.2683                  0.3831
+  weight sum                       2793                     373
+  precision                           1                       1
+
+though
+  mean                           0.0057                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+tired
+  mean                           0.0021                  0.0241
+  std. dev.                      0.1667                    0.17
+  weight sum                       2793                     373
+  precision                           1                       1
+
+uberfacts
+  mean                           0.0251                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+up
+  mean                           0.0362                  0.0938
+  std. dev.                      0.1905                  0.3007
+  weight sum                       2793                     373
+  precision                           1                       1
+
+was
+  mean                           0.0576                   0.118
+  std. dev.                      0.2465                  0.3466
+  weight sum                       2793                     373
+  precision                           1                       1
+
+weight
+  mean                           0.0061                  0.0375
+  std. dev.                      0.1667                  0.1901
+  weight sum                       2793                     373
+  precision                           1                       1
+
+withdrawal
+  mean                           0.0014                  0.0188
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+withdrawals
+  mean                                0                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+wondering
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+zombie
+  mean                                0                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+feel_like
+  mean                           0.0047                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+side_effects
+  mean                           0.0201                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+not_working
+  mean                           0.0011                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.11 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         884               82.1561 %
+Incorrectly Classified Instances       192               17.8439 %
+Kappa statistic                          0.2676
+Mean absolute error                      0.2068
+Root mean squared error                  0.3874
+Relative absolute error                103.9444 %
+Root relative squared error            125.7838 %
+Total Number of Instances             1076     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.862    0.518    0.934      0.862    0.896      0.279    0.757     0.961     N
+                 0.482    0.138    0.293      0.482    0.364      0.279    0.757     0.228     Y
+Weighted Avg.    0.822    0.477    0.866      0.822    0.840      0.279    0.757     0.884     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 829 133 |   a = N
+  59  55 |   b = Y
